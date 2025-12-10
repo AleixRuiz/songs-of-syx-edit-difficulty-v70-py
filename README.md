@@ -7,6 +7,10 @@ This tool allows you to modify internal difficulty variables that are not expose
 
 It automatically handles the decompression and re-compression of the game's save format, making editing safe and easy.
 
+## ⚠️ Important Prerequisites
+1. **Disable Steam Cloud**: Before editing, ensure Steam Cloud synchronization is disabled for the game. If enabled, Steam might overwrite your edited save file with the cloud version.
+2. **Verify Save File Format**: This tool is designed for save files with the specific version identifier in their name. Look for files ending with a pattern similar to `-19b03b754bd-460010-402243d7-0` (e.g., `mysave-19b03b754bd-460010-402243d7-0.save`).
+
 ## 🚀 Quick Start Guide
 
 ### 1. Installation
