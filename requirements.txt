@@ -1,0 +1,8 @@
+This tool relies only on the Python Standard Library.
+No external packages (pip install) are required.
+
+Libraries used:
+- tkinter (GUI)
+- zlib (Compression)
+- struct (Binary parsing)
+- os (File operations)
