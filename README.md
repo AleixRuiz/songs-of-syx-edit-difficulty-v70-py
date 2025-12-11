@@ -7,9 +7,18 @@ This tool allows you to modify internal difficulty variables that are not expose
 
 It automatically handles the decompression and re-compression of the game's save format, making editing safe and easy.
 
+## ⚠️ UNSTABLE VERSION WARNING
+This version is currently considered **UNSTABLE**.
+
+Due to the "Sparse Save Format" used by the game, settings that are currently at their default values (usually 1.0) may not be present in the save file and therefore cannot be detected or edited by this tool.
+
+If you encounter issues or cannot find the setting you want to change, please contact the author for help:
+- **Reddit**: u/Blatskers
+- **GitHub**: Check the repository issues
+
 ## ⚠️ Important Prerequisites
-1. **Disable Steam Cloud**: Before editing, ensure Steam Cloud synchronization is disabled for the game. If enabled, Steam might overwrite your edited save file with the cloud version. After it should run as normal and you can turn it back on.
-2. **Verify Save File Format**: This tool is designed for save files with the specific version identifier in their name. Look for files ending with a pattern similar to `-19b03b754bd-460010-402243d7-0` (e.g., `mysave-19b03b754bd-460010-402243d7-0.save`). After editing, make sure it has it or won't be detected.
+1. **Disable Steam Cloud**: Before editing, ensure Steam Cloud synchronization is disabled for the game. If enabled, Steam might overwrite your edited save file with the cloud version.
+2. **Verify Save File Format**: This tool is designed for save files with the specific version identifier in their name. Look for files ending with a pattern similar to `-19b03b754bd-460010-402243d7-0` (e.g., `mysave-19b03b754bd-460010-402243d7-0.save`).
 
 ## 🚀 Quick Start Guide
 
@@ -49,4 +58,3 @@ It includes logic to handle specific byte-alignment quirks of the engine where v
 
 ## License
 MIT License. Feel free to modify, distribute, and improve!
-
